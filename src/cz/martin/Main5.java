@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main5 {
     public static void main(String[] args) {
+        //Codeforces 1A
         Scanner sc = new Scanner(System.in);
         System.out.println("m:");
         int m = sc.nextInt();
