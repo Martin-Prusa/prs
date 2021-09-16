@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	// Největší a nejmenší číslo ze vstupu
         Scanner sc = new Scanner(System.in);
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
