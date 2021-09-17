@@ -1,4 +1,4 @@
-package cz.martin;
+//package cz.martin;
 
 import java.util.Scanner;
 
@@ -6,14 +6,13 @@ public class Main5 {
     public static void main(String[] args) {
         //Codeforces 1A
         Scanner sc = new Scanner(System.in);
-        System.out.println("m:");
-        int m = sc.nextInt();
-        System.out.println("n:");
-        int n = sc.nextInt();
-        System.out.println("a:");
-        int a = sc.nextInt();
-        double ma = Math.ceil((float) m/a);
-        double na = Math.ceil((float) n/a);
+        String[] input = sc.nextLine().split(" ");
+        int[] intInput = new int[input.length];
+        for (int i = 0; i < input.length; i++) {
+            intInput[i] = Integer.parseInt(input[i]);
+        }
+        double ma = Math.ceil((float) intInput[0]/intInput[2]);
+        double na = Math.ceil((float) intInput[1]/intInput[2]);
         System.out.println((int) (ma*na));
     }
 }
